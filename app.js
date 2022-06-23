@@ -23,7 +23,7 @@ function modulus(a, b) {
 function calculate() {
     var a = parseInt(prompt("Enter first number"));
     var b = parseInt(prompt("Enter second number"));
-    var operator = prompt("Enter operator from the list below: +, -, *, /, %");
+    var operator = prompt("Enter operator you wish to use from the list: +, -, *, /, %");
     var result;
     switch (operator) {
         case "+":
@@ -48,3 +48,11 @@ function calculate() {
     alert(result);
 }
 calculate();
+
+
+
+
+
+
+
+
